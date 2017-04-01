@@ -39,32 +39,43 @@ $navbar-default-bg: black;
   font-size: 250%;
 }
 
-.footer {
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+
+}
+
+.description {
+  margin-top: 0;
+}
+
+footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
 }
 
-.footer a:hover {
+footer a:hover {
   color: #222;
+  text-decoration: none;
 }
 
-.footer small {
+footer small {
   float: left;
 }
 
-.footer ul {
+footer ul {
   float: right;
   list-style-type: none;
 }
 
-.footer ul li{
+footer ul li{
   float: left;
   margin-left: 15px;
 }
 
-.footer a {
+footer a {
   text-decoration: none;
   color: #777;
 }
