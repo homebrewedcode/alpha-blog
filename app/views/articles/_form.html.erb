@@ -1,11 +1,4 @@
-<% if @article.errors.any? %>
-    <h2>The following errors occurred</h2>
-    <ul>
-      <% @article.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-      <% end %>
-    </ul>
-<% end %>
+<%= render 'shared/errors', obj: @article %>
 <!--Form helper, more info herehttp://guides.rubyonrails.org/form_helpers.html -->
 <div class="row">
   <div class="col-xs-12">
