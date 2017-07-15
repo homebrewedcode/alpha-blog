@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1af7c941-6d66-4186-8c16-c7d26fb01cb7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/integration/list_categories_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/categories/index.html.erb" afterPath="$PROJECT_DIR$/app/views/categories/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/create_categories_test.rb" afterPath="$PROJECT_DIR$/test/integration/create_categories_test.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -655,7 +651,7 @@
       <workItem from="1494293467353" duration="268000" />
       <workItem from="1499823925550" duration="2485000" />
       <workItem from="1499993847392" duration="5404000" />
-      <workItem from="1500081178457" duration="950000" />
+      <workItem from="1500081178457" duration="985000" />
     </task>
     <task id="LOCAL-00001" summary="add Category migration, add Category model and controller, add Category model and controller tests">
       <created>1499993972694</created>
@@ -678,11 +674,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499998217410</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Categories list tests">
+      <created>1500082159140</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1500082159140</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92824000" />
+    <option name="totallyTimeSpent" value="92859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="2562" height="1053" extended-state="6" />
@@ -736,7 +739,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Category migration, add Category model and controller, add Category model and controller tests" />
     <MESSAGE value="Create Feature test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Feature test" />
+    <MESSAGE value="Add Categories list tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Categories list tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
